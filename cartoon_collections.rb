@@ -29,7 +29,7 @@ def find_the_cheese(array)# code an argument here
   counter = 0
   value = nil
   while counter < cheese_types.length
-    if array.include(cheese_types[counter])
+    if array.include?(cheese_types[counter])
       value = cheese_types[counter]
     end
   end
