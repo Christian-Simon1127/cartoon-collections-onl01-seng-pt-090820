@@ -13,13 +13,12 @@ end
 def long_planeteer_calls(array)# code an argument here
   # Your code here
   counter = 0
-  
-  while counter < 
-  if array.find{|item| item.length < 3} == nil 
-    false
-  else 
-    true 
-  end
+  value = false
+  while counter < array.length
+    if array[i].length < 4
+      value = true
+      break
+    end
   end
 end
 
